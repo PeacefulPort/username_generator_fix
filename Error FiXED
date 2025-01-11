@@ -1,0 +1,11 @@
+protected
+Traceback (most recent call last):
+  File "/home/vinay/Downloads/username_generator/username_generator.py", line 68, in <module>
+    lowercase_transformations(names)
+  File "/home/vinay/Downloads/username_generator/username_generator.py", line 28, in lowercase_transformations
+    print(line.split()[1])                              # john lennon -> lennon
+
+
+
+          ~~~~~~~~~~~~^^^
+IndexError: list index out of range
