@@ -29,3 +29,14 @@ Run the script with a wordlist file as input:
 
 ```bash
 python3 username_generator_fix.py -w wordlist.lst
+
+Troubleshooting
+Error: IndexError: list index out of range
+This error occurs when a line in the input file does not contain at least two words.
+
+Solution:
+
+Ensure your wordlist file follows the required format.
+The script has been updated to handle such cases by skipping invalid lines and providing a warning message.
+Contributing
+Feel free to contribute by submitting issues or pull requests.
